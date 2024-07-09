@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3F18AFB52C3D3EC500051AEC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3F18AFB42C3D3EC500051AEC /* .gitignore */; };
+		3F3D4D212C3D6488008F0DA6 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D4D202C3D6488008F0DA6 /* Button.swift */; };
 		3FC39F492C3D2AFB009FAC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39F482C3D2AFB009FAC95 /* AppDelegate.swift */; };
 		3FC39F4B2C3D2AFB009FAC95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39F4A2C3D2AFB009FAC95 /* SceneDelegate.swift */; };
 		3FC39F4D2C3D2AFB009FAC95 /* GreetingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39F4C2C3D2AFB009FAC95 /* GreetingVC.swift */; };
 		3FC39F522C3D2AFB009FAC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39F512C3D2AFB009FAC95 /* Assets.xcassets */; };
-		3FC39F552C3D2AFB009FAC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC39F532C3D2AFB009FAC95 /* LaunchScreen.storyboard */; };
+		3FD1341D2C3D8AC40031969F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1341C2C3D8AC40031969F /* Launch Screen.storyboard */; };
+		3FD134282C3D8D130031969F /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD134272C3D8D130031969F /* UIColor + Extension.swift */; };
 		5911E406E2B664FCAEBAE746 /* Pods_TodoBucketApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4139BB410003FC604859AD /* Pods_TodoBucketApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		204E7255245073C8DA9810FE /* Pods-TodoBucketApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoBucketApp.release.xcconfig"; path = "Target Support Files/Pods-TodoBucketApp/Pods-TodoBucketApp.release.xcconfig"; sourceTree = "<group>"; };
 		3F18AFB42C3D3EC500051AEC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3F3D4D202C3D6488008F0DA6 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		3FC39F452C3D2AFB009FAC95 /* TodoBucketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoBucketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC39F482C3D2AFB009FAC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC39F4A2C3D2AFB009FAC95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FC39F4C2C3D2AFB009FAC95 /* GreetingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingVC.swift; sourceTree = "<group>"; };
 		3FC39F512C3D2AFB009FAC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FC39F542C3D2AFB009FAC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FC39F562C3D2AFB009FAC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD1341C2C3D8AC40031969F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3FD134272C3D8D130031969F /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		A088B595E166346ABD1D43C5 /* Pods-TodoBucketApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoBucketApp.debug.xcconfig"; path = "Target Support Files/Pods-TodoBucketApp/Pods-TodoBucketApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FB4139BB410003FC604859AD /* Pods_TodoBucketApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoBucketApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -51,6 +55,46 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3F3D4D222C3D7ACC008F0DA6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3FC39F512C3D2AFB009FAC95 /* Assets.xcassets */,
+				3FD1341C2C3D8AC40031969F /* Launch Screen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3F3D4D242C3D7AE7008F0DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F3D4D252C3D7AEF008F0DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F3D4D262C3D7AF7008F0DA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FD134262C3D8C550031969F /* Tab */,
+				3FD134252C3D8C4D0031969F /* Base */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3F3D4D272C3D7B0F008F0DA6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FD134272C3D8D130031969F /* UIColor + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		3FC39F3C2C3D2AFA009FAC95 = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +117,72 @@
 		3FC39F472C3D2AFB009FAC95 /* TodoBucketApp */ = {
 			isa = PBXGroup;
 			children = (
-				3FC39F482C3D2AFB009FAC95 /* AppDelegate.swift */,
-				3FC39F4A2C3D2AFB009FAC95 /* SceneDelegate.swift */,
-				3FC39F4C2C3D2AFB009FAC95 /* GreetingVC.swift */,
-				3FC39F512C3D2AFB009FAC95 /* Assets.xcassets */,
-				3FC39F532C3D2AFB009FAC95 /* LaunchScreen.storyboard */,
+				3FD1341F2C3D8B280031969F /* Application */,
+				3F3D4D252C3D7AEF008F0DA6 /* View */,
+				3F3D4D242C3D7AE7008F0DA6 /* Model */,
+				3F3D4D262C3D7AF7008F0DA6 /* ViewController */,
+				3FD1341E2C3D8B1D0031969F /* Custom */,
+				3F3D4D272C3D7B0F008F0DA6 /* Extension */,
+				3F3D4D222C3D7ACC008F0DA6 /* Resource */,
 				3FC39F562C3D2AFB009FAC95 /* Info.plist */,
 			);
 			path = TodoBucketApp;
+			sourceTree = "<group>";
+		};
+		3FD1341E2C3D8B1D0031969F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				3FD134242C3D8C250031969F /* TableViewCell */,
+				3FD134232C3D8C1A0031969F /* View */,
+				3FD134222C3D8C0D0031969F /* Button */,
+				3F3D4D202C3D6488008F0DA6 /* Button.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		3FD1341F2C3D8B280031969F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3FC39F482C3D2AFB009FAC95 /* AppDelegate.swift */,
+				3FC39F4A2C3D2AFB009FAC95 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3FD134222C3D8C0D0031969F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		3FD134232C3D8C1A0031969F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FD134242C3D8C250031969F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		3FD134252C3D8C4D0031969F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3FC39F4C2C3D2AFB009FAC95 /* GreetingVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3FD134262C3D8C550031969F /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tab;
 			sourceTree = "<group>";
 		};
 		A78DADDCD4BBB2643BE03B67 /* Frameworks */ = {
@@ -151,7 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC39F552C3D2AFB009FAC95 /* LaunchScreen.storyboard in Resources */,
+				3FD1341D2C3D8AC40031969F /* Launch Screen.storyboard in Resources */,
 				3F18AFB52C3D3EC500051AEC /* .gitignore in Resources */,
 				3FC39F522C3D2AFB009FAC95 /* Assets.xcassets in Resources */,
 			);
@@ -209,21 +311,12 @@
 				3FC39F4D2C3D2AFB009FAC95 /* GreetingVC.swift in Sources */,
 				3FC39F492C3D2AFB009FAC95 /* AppDelegate.swift in Sources */,
 				3FC39F4B2C3D2AFB009FAC95 /* SceneDelegate.swift in Sources */,
+				3F3D4D212C3D6488008F0DA6 /* Button.swift in Sources */,
+				3FD134282C3D8D130031969F /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3FC39F532C3D2AFB009FAC95 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FC39F542C3D2AFB009FAC95 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3FC39F572C3D2AFB009FAC95 /* Debug */ = {
