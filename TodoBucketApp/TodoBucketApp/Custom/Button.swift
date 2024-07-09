@@ -20,7 +20,7 @@ class Button: UIButton {
     }
     
     convenience init() {
-        self.init(title: "다음", titleColor: .white, backgroundColor: UIColor(red: 255/255.0, green: 157/255.0, blue: 0/255.0, alpha: 1.0), cornerRadius: 15)
+        self.init(title: "", titleColor: .white, backgroundColor: .mainButtonColor, cornerRadius: 15)
     }
     
     required init?(coder: NSCoder) {
