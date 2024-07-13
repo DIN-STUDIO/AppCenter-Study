@@ -1,7 +1,7 @@
 import UIKit
 
 extension UIColor {
-    convenience init(hexCode: String) {
+    convenience init(hexCode: String, alpha: CGFloat = 1.0) {
         var hexFormatted: String = hexCode.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()
         
         if hexFormatted.hasPrefix("#") {
@@ -16,9 +16,9 @@ extension UIColor {
         self.init(red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
                   green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
                   blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
-                  alpha: 1.0)
+                  alpha: alpha)
     }
 
-//    static let mainButtonColor = UIColor(red: 255/255.0, green: 157/255.0, blue: 0/255.0, alpha: 1.0)
-    static let mainButtonColor = UIColor(hexCode: "FFF8EE")
+    static let paleOrange = UIColor(hexCode: "FFF8EE")
+    static let brightOrange = UIColor(hexCode: "FF9D00")
 }

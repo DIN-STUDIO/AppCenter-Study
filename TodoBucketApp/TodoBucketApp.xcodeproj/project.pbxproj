@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F18AFB52C3D3EC500051AEC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3F18AFB42C3D3EC500051AEC /* .gitignore */; };
-		3F3D4D212C3D6488008F0DA6 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D4D202C3D6488008F0DA6 /* Button.swift */; };
+		3F3D4D212C3D6488008F0DA6 /* PaleOrangeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D4D202C3D6488008F0DA6 /* PaleOrangeBtn.swift */; };
 		3FC39F492C3D2AFB009FAC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39F482C3D2AFB009FAC95 /* AppDelegate.swift */; };
 		3FC39F4B2C3D2AFB009FAC95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39F4A2C3D2AFB009FAC95 /* SceneDelegate.swift */; };
 		3FC39F4D2C3D2AFB009FAC95 /* GreetingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC39F4C2C3D2AFB009FAC95 /* GreetingVC.swift */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		204E7255245073C8DA9810FE /* Pods-TodoBucketApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoBucketApp.release.xcconfig"; path = "Target Support Files/Pods-TodoBucketApp/Pods-TodoBucketApp.release.xcconfig"; sourceTree = "<group>"; };
 		3F18AFB42C3D3EC500051AEC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		3F3D4D202C3D6488008F0DA6 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		3F3D4D202C3D6488008F0DA6 /* PaleOrangeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaleOrangeBtn.swift; sourceTree = "<group>"; };
 		3FC39F452C3D2AFB009FAC95 /* TodoBucketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoBucketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC39F482C3D2AFB009FAC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC39F4A2C3D2AFB009FAC95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				3FD134242C3D8C250031969F /* TableViewCell */,
 				3FD134232C3D8C1A0031969F /* View */,
 				3FD134222C3D8C0D0031969F /* Button */,
-				3F3D4D202C3D6488008F0DA6 /* Button.swift */,
+				3F3D4D202C3D6488008F0DA6 /* PaleOrangeBtn.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 				3FC39F4D2C3D2AFB009FAC95 /* GreetingVC.swift in Sources */,
 				3FC39F492C3D2AFB009FAC95 /* AppDelegate.swift in Sources */,
 				3FC39F4B2C3D2AFB009FAC95 /* SceneDelegate.swift in Sources */,
-				3F3D4D212C3D6488008F0DA6 /* Button.swift in Sources */,
+				3F3D4D212C3D6488008F0DA6 /* PaleOrangeBtn.swift in Sources */,
 				3FD134282C3D8D130031969F /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
